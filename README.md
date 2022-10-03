@@ -21,6 +21,8 @@ Run QAM_Modulation.py
 ```console
 python3 QAM_Modulation.py
 ```
+-> Modifiable parameters Q and I via sliders.
+
 ![Alt text](QAM_modulation.png?raw=true "QAM demodulation")
 
 
@@ -29,12 +31,13 @@ The quadrature and in-phase components can be recovered from the transmitted sig
 $$I(t) = s(t)cos(2 \pi ft) = I(t)cos(2 \pi ft)cos(2 \pi ft) - Q(t)sin(2 \pi ft)cos(2 \pi ft)$$ 
 $$= \frac{1}{2}I(t)(1+cos(4 \pi ft)) - \frac{1}{2}Q(t)sin(4 \pi ft)$$
 $$= \frac{1}{2}I(t)+ \frac{1}{2}(I(t)cos(4 \pi ft)- Q(t)sin(4 \pi ft)$$ 
-$$= \frac{1}{2}I(t) (lowpass filtered) = I(t) (amplified))$$
+$$= \frac{1}{2}I(t) (lowpass filtered) = I(t) (amplified)$$
 
 Run QAM_Demodulation.py
 ```console
 python3 QAM_Demodulation.py
 ```
+-> Modifiable parameters Q and I via sliders.
 
 ![Alt text](QAM_demodulation.png?raw=true "QAM demodulation")
 
