@@ -21,6 +21,8 @@ Run QAM_Modulation.py
 ```console
 python3 QAM_Modulation.py
 ```
+![Alt text](QAM_modulation.png?raw=true "QAM demodulation")
+
 
 # QAM Demodulation
 The quadrature and in-phase components can be recovered from the transmitted signal. To do this, superimpose the original modulation signal with the transmitted signal for the in-phase component, low-pass filter it and then amplify it (analogously for the quadrature component). According to the following equation [1]:
@@ -33,6 +35,9 @@ Run QAM_Demodulation.py
 ```console
 python3 QAM_Demodulation.py
 ```
+
+![Alt text](QAM_demodulation.png?raw=true "QAM demodulation")
+
 
 # References
 - https://en.wikipedia.org/wiki/Quadrature_amplitude_modulation
